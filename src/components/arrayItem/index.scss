@@ -1,0 +1,68 @@
+.home-group {
+  border: 1px solid black;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  width: 91%;
+  border-top: 0;
+  border-left: 0;
+}
+
+.aglow {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  width: 97%;
+  margin-left: -10%;
+  border: 0 solid black;
+  border-bottom-width: 1px;
+}
+
+.pray-meet {
+  border: 1px solid black;
+  grid-column: 3/3;
+  grid-row: 1/2;
+  width: 115%;
+  margin-left: -15%;
+  border-top: 0;
+}
+
+.youth {
+  border: 1px solid black;
+  grid-column: 1/2;
+  grid-row: 2/2;
+  border-bottom: 0;
+  border-left: 0;
+}
+
+.bible-study {
+  grid-column: 2/3;
+  grid-row: 2/2;
+  border: 0 solid black;
+  border-top-width: 1px;
+}
+
+.teen-group {
+  border: 1px solid black;
+  grid-column: 3/3;
+  grid-row: 2/2;
+  border-bottom: 0;
+  border-right: 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.text-array {
+  padding: 5px 5px 5px 15px;
+
+  h2 {
+    color: #3e3e3e;
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}

@@ -1,22 +1,14 @@
 import React from "react";
 import './index.scss'
 import Title from "../../components/title";
+import Array from "../../components/array";
 
 const Discover = () => {
     return(
         <div className="discover">
-            <Title title="Nous découvrir" />
+            <Title title="Nous découvrir" padding="100px" />
             <div className="parallax">
-                <div className="background-array">
-                    <div className="array">
-                        <div className="home-group"></div>
-                        <div className="aglow"></div>
-                        <div className="pray-meet"></div>
-                        <div className="youth"></div>
-                        <div className="bible-study"></div>
-                        <div className="teen-group"></div>
-                    </div>
-                </div>
+                <Array/>
             </div>
         </div>
     )

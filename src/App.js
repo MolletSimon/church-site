@@ -4,6 +4,7 @@ import NavBar from "./components/navbar";
 import History from "./screens/history";
 import Home from "./screens/home";
 import Discover from "./screens/discover";
+import FindUs from "./screens/findUs";
 
 function App() {
     return (
@@ -16,11 +17,14 @@ function App() {
             <div id="Notre histoire">
                 <History/>
             </div>
+
             <div id="Nous découvrir">
                 <Discover/>
             </div>
 
-            dsds
+            <div id="Nous retrouver">
+                <FindUs/>
+            </div>
         </div>
     );
 }
