@@ -1,12 +1,14 @@
+@import '~@fullcalendar/core/main.css';
+@import '~@fullcalendar/daygrid/main.css';
+
 .find-us {
   border: 0 solid black;
   border-bottom-width: 1px;
   flex-direction: column;
-  display: flex;
-  justify-content: center;
 }
 
-.agenda {
-  display: flex;
-  justify-content: center;
+.calendar {
+  margin: 30px 200px 30px 200px;
+  border: 1px solid lightgrey;
+  padding: 20px;
 }
