@@ -1,0 +1,12 @@
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-bar-content {
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.45);
+}
