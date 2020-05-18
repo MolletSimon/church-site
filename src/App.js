@@ -8,6 +8,7 @@ import Home from "./screens/home";
 import Discover from "./screens/discover";
 import FindUs from "./screens/findUs";
 import ContactUs from "./screens/contactUs";
+import Informations from "./screens/informations";
 
 function App() {
     const componentWillMount = useCallback(() => {
@@ -42,6 +43,10 @@ function App() {
 
             <div id="Nous contacter">
                 <ContactUs/>
+            </div>
+
+            <div id="Informations">
+                <Informations/>
             </div>
         </div>
     );

@@ -14,7 +14,7 @@ const ContactUs = () => {
     return(
         <div>
             <Title title="Nous contacter" margin="50px"/>
-            <div className="form">
+            <div className="form" data-aos="fade-up">
                 <form onSubmit={handleSubmit} className="form-object">
                     <div className="row">
                         <input type="text" placeholder="Nom" value={nameValue} onChange={(event) => setNameValue(event.target.value)}/>
