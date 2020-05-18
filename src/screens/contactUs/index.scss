@@ -1,0 +1,46 @@
+.form-object {
+  width: 60%;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+  margin-top: 10px;
+
+  .submit {
+    border-bottom-width: 0 !important;
+    width: auto;
+    
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  input {
+    padding: 20px;
+    border: 0 solid #a7a7a7;
+    border-bottom-width: 1px;
+    width: 100%;
+    margin: 10px;
+    font-size: 15px;
+
+
+  }
+
+  textarea {
+    border: 0 solid #a7a7a7;
+    border-bottom-width: 1px;
+    width: 100%;
+    margin: 10px;
+    font-size: 15px;
+    padding: 20px;
+  }
+}
