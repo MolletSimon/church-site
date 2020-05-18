@@ -1,14 +1,17 @@
 @import '~@fullcalendar/core/main.css';
 @import '~@fullcalendar/daygrid/main.css';
+@import "src/App";
 
 .find-us {
   border: 0 solid black;
-  border-bottom-width: 1px;
   flex-direction: column;
+  background-color: $primary;
 }
 
 .calendar {
-  margin: 30px 200px 30px 200px;
+  margin: 30px 400px 0 400px;
+  padding: 50px;
+  background-color: white;
   border: 1px solid lightgrey;
-  padding: 20px;
+  box-shadow: -30px 30px $secondary;
 }

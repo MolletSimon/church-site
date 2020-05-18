@@ -6,7 +6,7 @@ import Array from "../../components/array";
 const Discover = () => {
     return(
         <div className="discover">
-            <div data-aos="fade-up"><Title title="Nous découvrir" padding="100px"/></div>
+            <div data-aos="fade-up"><Title title="Nous découvrir" margin="40px"/></div>
             <div className="parallax">
                 <Array/>
             </div>

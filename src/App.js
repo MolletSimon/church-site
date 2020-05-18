@@ -7,6 +7,7 @@ import History from "./screens/history";
 import Home from "./screens/home";
 import Discover from "./screens/discover";
 import FindUs from "./screens/findUs";
+import ContactUs from "./screens/contactUs";
 
 function App() {
     const componentWillMount = useCallback(() => {
@@ -38,6 +39,10 @@ function App() {
 
             <div id="Nous retrouver">
                 <FindUs/>
+            </div>
+
+            <div id="Nous contacter">
+                <ContactUs/>
             </div>
         </div>
     );

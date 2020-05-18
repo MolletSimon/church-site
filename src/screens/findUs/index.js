@@ -9,11 +9,10 @@ const FindUs = () => {
 
     return(
         <div className="find-us" >
-            <div data-aos="fade-up"><Title title="Nous retrouver" /></div>
+            <div data-aos="fade-up"><Title title="Nous retrouver"/></div>
             <div className="calendar" data-aos="fade-right">
                 <FullCalendar defaultView="dayGridMonth" plugins={[ dayGridPlugin ]} height="100"/>
             </div>
-
         </div>
     )
 }
