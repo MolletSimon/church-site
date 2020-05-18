@@ -7,8 +7,20 @@ const ContactUs = () => {
     const [mailValue, setMailValue] = useState("");
     const [messageValue, setMessageValue] = useState("");
 
+    const sendFeedback = (templateId, variables) => {
+        window.emailjs.send(
+            'gmail', templateId,
+            variables
+        ).then(res => {
+            console.log('Email successfully sent!')
+        })
+            // Handle errors here however you like, or use a React error boundary
+            .catch(err => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err))
+    }
+
     const handleSubmit = (event) => {
-        console.log(`L'utilisateur ${nameValue} qui possède l'adresse mail : ${mailValue} a envoyé le message suivant : ${messageValue}`);
+        const templateId= 'template_buMkQwFy';
+        sendFeedback(templateId, {message_html: messageValue, from_name: nameValue, reply_to: mailValue})
         event.preventDefault();
     }
     return(
