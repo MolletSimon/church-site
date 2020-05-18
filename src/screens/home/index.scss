@@ -1,3 +1,5 @@
+@import "src/App";
+
 .img-welcome {
   display: flex;
   justify-content: center;
@@ -5,7 +7,7 @@
 
   img {
     max-width: 60%;
-    box-shadow: -18px -18px #ffa69e;
+    box-shadow: -18px -18px $secondary;
     height: auto;
   }
 }

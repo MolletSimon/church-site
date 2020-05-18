@@ -5,10 +5,10 @@ import Divider from "../divider";
 const Card = ({title, subtitle, content}) => {
     return (
         <div className="card">
-            <div className="img">
+            <div className="img" data-aos="fade-up">
                 <img src={require('../../images/pray.png')} alt="pray"/>
             </div>
-            <div className="text">
+            <div className="text" data-aos="fade-left">
                 <h1>{title}</h1>
                 <Divider />
                 <h3>{subtitle}</h3>

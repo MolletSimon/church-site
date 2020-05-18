@@ -3,7 +3,7 @@ import './index.scss';
 
 const Home = () => {
     return(
-        <div className="img-welcome">
+        <div className="img-welcome" data-aos="fade-right">
             <img src={require('../../images/Welcome.png')} alt="background"/>
         </div>
     )

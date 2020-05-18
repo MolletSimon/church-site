@@ -12,7 +12,7 @@ const Array = () => {
 
     return(
         <div className="background-array">
-            <div className="array">
+            <div className="array" data-aos="zoom-in">
                 <ArrayItem div="home-group" icon={require('../../images/home.png')} title="Groupe de maison" text={textHomeGroup}/>
                 <ArrayItem div="aglow" title="Aglow église" text={textAglow}/>
                 <ArrayItem div="pray-meet" icon={require('../../images/pray-hands.png')} title="Réunion de prières" text={textMeetPrayer}/>

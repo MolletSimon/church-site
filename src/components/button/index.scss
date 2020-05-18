@@ -1,3 +1,5 @@
+@import "src/App";
+
 .button {
   padding: 20px;
   background: none;
@@ -6,7 +8,7 @@
   transition: 0.5s;
 
   &:hover {
-    background-color: #84dcc6;
+    background-color: $primary;
     color: #ffffff;
     opacity: 1;
     cursor: pointer;
@@ -14,6 +16,6 @@
 }
 
 .active {
-  background-color: #84dcc6;
+  background-color: $primary;
   color: #ffffff;
 }
