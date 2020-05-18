@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import './index.scss';
 import Title from "../../components/title";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const ContactUs = () => {
     const [nameValue, setNameValue] = useState("");
@@ -12,7 +14,15 @@ const ContactUs = () => {
             'gmail', templateId,
             variables
         ).then(res => {
-            console.log('Email successfully sent!')
+            toast.success('Votre message a bien été envoyé ! 😍', {
+                position: "top-right",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+            });
         })
             // Handle errors here however you like, or use a React error boundary
             .catch(err => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err))
@@ -41,6 +51,19 @@ const ContactUs = () => {
                     </div>
                 </form>
             </div>
+            <ToastContainer
+                position="top-right"
+                autoClose={5000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+            />
+            {/* Same as */}
+            <ToastContainer />
         </div>
     )
 }

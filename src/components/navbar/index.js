@@ -12,9 +12,10 @@ const NavBar = () => {
                 <Button label="Nous découvrir" active={active} setActive={setActive}/>
                 <Button label="Nous retrouver" active={active} setActive={setActive}/>
                 <Button label="Nous contacter" active={active} setActive={setActive}/>
+                <Button label="Informations" active={active} setActive={setActive}/>
             </div>
         </div>
     )
 }
 
-export default NavBar
+export default NavBar;

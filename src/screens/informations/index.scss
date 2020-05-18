@@ -1,3 +1,29 @@
 .infos {
   background-color: #ececec;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.infos-array {
+  border: 0 solid grey;
+  border-top-width: 1px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  width: 60%;
+  margin-left: 20%;
+}
+
+#tel {
+  border-left: 0 !important;
+}
+
+.array-item {
+  border-left: 1px solid grey;
+  padding-left: 40px;
+}
+
+#mapid {
+  height: 180px;
 }
